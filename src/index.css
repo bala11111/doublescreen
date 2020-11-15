@@ -11,3 +11,127 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.App{
+  background-color: yellowgreen;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Login{
+  background-color: yellow;
+  width: auto;
+  height: 340px;
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+  text-align: center;
+  border: 2px solid black;
+  border-style: double;
+  align-items: center;
+  justify-content: center;
+}
+
+.Login h3{
+  margin: 0;
+  padding: none;
+  size: 50px;
+}
+
+.Login input{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.Login button{
+  margin-top: 10px;
+}
+
+.main{
+  display: flex;
+}
+
+.component1{
+  width: 50vw;
+  height: 100vh;
+  background-color: rgb(138, 138, 221);
+}
+
+.cmp1{
+  display: flex;
+  width: 50vw;
+  height: 10vh;
+  background-color: rgb(235, 124, 124);
+  justify-content: center;
+  align-items: center;
+}
+
+.cmp1 button{
+  height: 30px;
+  width: 70px;
+  margin-left: 20px;
+}
+
+.cmp1 textarea{
+  height: 20px;
+}
+
+.name{
+  height: 100%;
+  width: 20%;
+  background-color: rgb(39, 38, 38);
+  margin-left: -43px;
+  margin-right: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.name h2{
+  color: white;
+  margin: none;
+}
+
+.component2{
+  width: 50vw;
+  height: 100vh;
+  background-color: rgb(235, 124, 124);
+}
+
+.cmp2{
+  display: flex;
+  width: 50vw;
+  height: 10vh;
+  background-color: rgb(138, 138, 221);
+  justify-content: center;
+  align-items: center;
+}
+
+.cmp2 form button {
+   margin-top:0;
+   margin-bottom: 0;
+   padding: 0;
+}
+
+.cmp2 button{
+  height: 30px;
+  width: 70px;
+  margin-left: 20px;
+}
+
+.cmp2 textarea{
+  height: 20px;
+}
+
+.screen{
+  height: 400px;
+  width: 500px;
+  background-color: rgb(253, 252, 249);
+  position: relative;
+  left: 18%;
+  top : 12%;
+  border: 5px solid black ;
+  border-style: double;
+}
